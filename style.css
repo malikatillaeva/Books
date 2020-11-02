@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(background.jpg) no-repeat center/cover;
+    text-align: center;
+    /* height: 100vh; */
+}
+
+#zagolovok {
+    color: darkorchid;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#vid {
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+
+fieldset {
+    background: url(kartinka.jpg) no-repeat center/cover;
+    border: 5px solid crimson;
+    margin: auto;
+    width: 75%;
+}
+
+#knopka {
+    color: violet;
+}
+
+#date {
+    color: darkviolet;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+}
+
+.ul a {
+    color: blueviolet;
+    padding: 20px 10px;
+    display: block;
+}
+
+#nazvaniye{
+    color: darkorchid;
+    background: black;
+    width: 900px;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex; 
+}
+
+.image{
+    padding: 0 150px;
+  
+}
+
+.content{
+    padding: 0 40px 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
